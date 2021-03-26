@@ -16,11 +16,7 @@ int main(){
     instC.setA(&instA);
     instC.setB(&instB);
 
-    cout<< "Num de instA: " << instA.getNum() << '\n';
-    cout<< "Num de instB: " << instB.getNum() << '\n';
-    cout<< "Num de instC: " << instC.getNum() << '\n';
-
-    cout<< "\nNum de instB en instA " << instA.getB()->getNum() << '\n';
-    cout<< "Num de instC en instB " << instB.getC()->getNum() << '\n';
-    cout<< "Num de instA en instC " << instC.getA()->getNum() << '\n';
+    instA.mensaje();
+    instB.mensaje();
+    instC.mensaje();
 }

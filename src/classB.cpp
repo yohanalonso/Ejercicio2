@@ -22,3 +22,9 @@ void classB::setA(classA* A){
 void classB::setC(classC* C){
     this->C = C;
 }
+
+void classB::mensaje(){
+    cout<< "\nNum de classB: "<< num << '\n';
+    cout<< "Num de classA en classB: " << A->getNum() << '\n';
+    cout<< "Num de classC en classB: " << C->getNum() << '\n';
+}

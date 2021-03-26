@@ -1,6 +1,9 @@
 #ifndef _CLASSC_
 #define _CLASSC_
 
+#include <iostream>
+using namespace std;
+
 #include "classA.h"
 #include "classB.h"
 
@@ -20,6 +23,7 @@ public:
     void setA(classA*);
     classB* getB();
     void setB(classB*);
+    void mensaje();
 };
 
 #endif
