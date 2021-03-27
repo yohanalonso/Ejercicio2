@@ -2,8 +2,8 @@
 
 classA::classA(int num){
     this->num = num;
-    B = nullptr;
-    C = nullptr;
+    B = NULL;
+    C = NULL;
 }
 classA::~classA(){
 }
